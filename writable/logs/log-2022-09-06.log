@@ -1,0 +1,182 @@
+CRITICAL - 2022-09-06 03:31:20 --> Invalid file: notify.php
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('notify.php')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(468): CodeIgniter\View\View->render('notify', NULL, true)
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Views\frontend\default.php(41): CodeIgniter\View\View->include('notify', NULL)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Common.php(1217): CodeIgniter\View\View->render('frontend/defaul...', Array, true)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cart.php(89): view('frontend/defaul...', Array)
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cart->notify()
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-06 03:34:35 --> Invalid file: notify.php
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('notify.php')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(468): CodeIgniter\View\View->render('notify', NULL, true)
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Views\frontend\default.php(41): CodeIgniter\View\View->include('notify', NULL)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Common.php(1217): CodeIgniter\View\View->render('frontend/defaul...', Array, true)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cart.php(89): view('frontend/defaul...', Array)
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cart->notify()
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-06 03:34:53 --> Invalid file: notify.php
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('notify.php')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(468): CodeIgniter\View\View->render('notify', NULL, true)
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Views\frontend\default.php(41): CodeIgniter\View\View->include('notify', NULL)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Common.php(1217): CodeIgniter\View\View->render('frontend/defaul...', Array, true)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cart.php(89): view('frontend/defaul...', Array)
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cart->notify()
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-06 04:46:37 --> Call to a member function select_array() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Ajax->loadPhotoProductMobile()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-06 04:46:39 --> Call to a member function select_array() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Ajax->loadPhotoProductMobile()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-06 04:46:41 --> Call to a member function select_array() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Ajax->loadPhotoProductMobile()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-06 04:46:43 --> Call to a member function select_array() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Ajax->loadPhotoProductMobile()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-06 05:35:31 --> Division by zero
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Views\frontend\home\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(468): CodeIgniter\View\View->render('frontend/home/i...', NULL, true)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Views\frontend\default.php(41): CodeIgniter\View\View->include('frontend/home/i...', NULL)
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Common.php(1217): CodeIgniter\View\View->render('frontend/defaul...', Array, true)
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Home.php(132): view('frontend/defaul...', Array)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-09-06 06:23:35 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-06 06:25:06 --> Too few arguments to function App\Controllers\Route::createBreadcrumbProduct(), 1 passed in C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php on line 549 and exactly 2 expected
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(549): App\Controllers\Route->createBreadcrumbProduct('214')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(355): App\Controllers\Route->createBreadcrumbProduct('216', Array)
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(75): App\Controllers\Route->product('fruit-pigmented...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('fruit-pigmented...', '')
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-09-06 06:25:25 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-06 06:25:33 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-06 06:25:57 --> Cannot pass parameter 2 by reference
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(75): App\Controllers\Route->product('fruit-pigmented...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('fruit-pigmented...', '')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-09-06 06:26:23 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-06 06:27:55 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-06 06:29:07 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-09-06 06:31:20 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(418): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('47')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-06 06:36:00 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(418): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('47')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-09-06 06:46:24 --> array_reverse() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_reverse()...', 'C:\\xampp\\htdocs...', 273, Array)
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(273): array_reverse(NULL)
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(71): App\Controllers\Route->cate_product('son-moi-viet-na...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('son-moi-viet-na...', '')
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-09-06 14:00:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-09-06 14:00:45 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(225): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\BaseController.php(58): CodeIgniter\Database\MySQLi\Connection->reconnect()
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(911): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-09-06 14:00:51 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-09-06 14:00:51 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(225): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\BaseController.php(58): CodeIgniter\Database\MySQLi\Connection->reconnect()
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(911): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

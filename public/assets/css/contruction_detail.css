@@ -1,0 +1,175 @@
+.contruction_detail .linkSlide
+{
+    display: block;
+    height: 535px;
+    width: 100%;
+}
+.contruction_detail .same-btn 
+{
+    position: absolute;
+    z-index: 100;
+    top: 48%;
+    color: white;
+    font-size: 17px;
+}
+.contruction_detail .swiper-button-next-t
+{
+    right: 9px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contruction_detail .swiper-button-prev-t
+{
+    left: 9px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contruction_detail h2.title 
+{
+    margin-bottom: 30px;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contruction_detail .image_content
+{
+    padding: 30px 0px;
+}
+.contruction_detail .boxImage
+{
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+}
+ 
+.contruction_detail .swiper-button-prev ,
+.contruction_detail .swiper-button-next
+{
+    color: white;
+}
+.contruction_detail .boxImgs img
+{
+    width: 100%;
+    height: 98px;
+    object-fit: cover;
+}
+.contruction_detail  .image_detail .row > div 
+{
+    padding-right: 0px ;
+    margin-bottom: 10px;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled
+{
+    opacity: 1 !important;
+}
+.contruction_detail .info-ct-dt-r
+{
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+.contruction_detail .cont-child 
+{
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.contruction_detail .left-cont-p 
+{
+    width: 30%;
+    padding: 8px 0;
+    border-right: 1px solid #b3b3b3;
+}
+
+.contruction_detail .right-cont-p 
+{
+    width: 70%;
+    padding: 8px 0 5px 25px;
+    word-break: break-all;
+    line-height: 1.6;
+}
+.contruction_detail  .image_detail .boxImgs
+{
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.contruction_detail  .image_detail .borderImg 
+{
+    border: 2px solid #000;
+}
+.contruction_detail  .m-pagination .pagination 
+{
+    justify-content: center;
+}
+.contruction_detail  .m-pagination .page-item.active .page-link {
+    background-color: #18a6c0;
+}
+.contruction_detail  .page-link {
+    /* line-height: 0.8 !important; */
+}
+.contruction_detail .wrap
+{
+    margin-bottom: 40px;
+}
+.contruction_detail  .infoContruction
+{
+    margin-bottom: 30px;
+}
+.contruction_detail  .avatarPost
+{
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+.sameContruction .typical_projects .title_project
+{
+    background: rgb(255 255 255 / 88%);
+    padding: 40px 18px 35px 24px;
+    
+}
+
+.sameContruction  .txt-name
+{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+.sameContruction  .underline-title
+{
+    background-color: #18a6c0 ;
+    border: none;
+}
+.sameContruction .btn-plus, .sameContruction .link-to
+{
+    border: 1px solid  #18a6c0 ;
+    background: none;
+    border-radius: 1px;
+    color: #18a6c0 ;
+    outline: none !important;
+}
+.sameContruction .btn-plus:hover, .sameContruction .link-to:hover
+{
+    background: #18a6c0 ;
+    color: #fff ;
+}
+.sameContruction .content-title
+{
+    color: #000;
+}
+.sameContruction  .content-investor {
+    font-size: 14px;
+}

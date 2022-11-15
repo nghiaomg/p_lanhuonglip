@@ -1,0 +1,179 @@
+.search_container{
+    background: linear-gradient(30deg, #106BA4 10%, #0d5887 58%, #07466d 100%);
+    padding: 120px 0px;
+}
+.search_container .box{
+    width: 90%;
+    margin: auto;
+}
+.search_container .tab{
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+.search_container .tab li{
+    display: inline-block;
+    width: 160px;
+    border-radius: 5px 5px 0 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #fff;
+    opacity: .85;
+    color: #777;
+    padding: 12px 0 6px 0;
+    cursor: pointer;
+}
+.search_container .tab li.actived{
+    background: rgba(0,0,0,.65);
+    color: #fff;
+    cursor: pointer;
+}
+.search_container .box_form{
+    background: rgba(0,0,0,.65);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 0 5px 5px 5px;
+    padding: 9px;
+}
+.search_container .box_form .home-search-control{
+    background: #fff;
+    border-radius: 3px 5px 5px 3px;
+}
+.search_container .box_form .home-search-control .item.item_type{
+    float: left;
+    width: 300px;
+    height: 42px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    border-right: 1px solid #ececec;
+}
+.search_container .box_form .home-search-control .item_type .select-custom{
+    border-right: 1px solid #ececec;
+    font-weight: bold;
+    color: #555;
+    border-radius: 3px 0 0 3px;
+    background-image: url(../../assets/images/icon-home-search.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 14px;
+    display: block;
+    line-height: 40px;
+    background-size: 20px 21px;
+}
+.search_container .box_form .home-search-control .item_type .select-custom #lblCurrCate{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 14px;
+    line-height: 42px;
+}
+.search_container .box_form .home-search-control .item_type .select-custom:after {
+    content: '';
+    background: url(../../assets/images/icon-down-arrow.png) no-repeat center center;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    width: 15px;
+    height: 18px;
+    background-size: 15px 18px;
+}
+.search_container .box_form .home-search-control .search-input-key{
+    width: calc(100% - 369);
+    float: left;
+}
+.search_container .box_form .home-search-control .search-input-key input{
+    width: 100%;
+    height: 42px;
+    padding: 12px 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 0;
+}
+.search_container .box_form .home-search-control .search-button{
+    float: right;
+    width: 140px;
+}
+.search_container .box_form .home-search-control .search-button button{
+    width: 100%;
+    background: #3c9f10 url(../../assets/images/icon-search.png) no-repeat 20px 12px;
+    border-radius: 0 5px 5px 0;
+    height: 42px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 25px;
+    margin: 0;
+    background-size: 16px 16px;
+    box-sizing: border-box;
+}
+.search_container .box_form .home-search-control-2{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.search_container .box_form .home-search-control-2 .item{
+    box-sizing: border-box;
+    border-radius: 2px;
+    position: relative;
+    width: 20%;
+    background-color: #FFF;
+    border-right: 2px solid rgba(0,0,0,.65);
+    border-radius: 3px;
+}
+.search_container .box_form .home-search-control-2 .item .box-sel{
+    /*border: 1px solid #777;*/
+    box-sizing: border-box;
+    padding-left: 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.search_container .box_form .home-search-control-2 .item:after {
+    content: '';
+    background: url(../../assets/images/icon-down-arrow.png) no-repeat center center;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    width: 15px;
+    height: 18px;
+    background-size: 15px 18px;
+}
+.search_container .box_form .home-search-control-2 .item .box-sel input{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0;
+    background: transparent;
+    color: #333;
+    outline: none;
+    border: none;
+}
+
+.loadData{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    background-color: #FFF;
+    z-index: 99;
+}
+.loadData ul{
+    overflow-x: hidden;
+    max-height: 365px;
+    min-width: 188px !important;
+    list-style: none;
+    padding: 0px;
+    border: 1px solid #f5f5f5;
+}
+.loadData ul li{
+    padding: 8px 15px;
+    cursor: pointer;
+}

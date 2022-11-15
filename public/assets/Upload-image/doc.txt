@@ -1,0 +1,136 @@
+ LƯU Ý: CÓ THUỘC TÍNH XÁC NHẬN SAU KHI VALIDATE LÀ : 
+                     - data-validate của class parentImage_Multiple (upload nhiều hình)
+                     - data-validate của class parentImage (upload 1 hình)
+===================\ SERVER VALIDATE PHP ===================
+    public function validate_upload()
+    {
+        $alert               = "";
+        $inputFileName       = $_POST['inputFileName'];
+        $allowExtensionEXT   = $_POST['ext'];
+        $allowExtensionMIME  = $_POST['mime'];
+        $alertExtension      = $_POST['alertExtension'];
+        $alertMaxsize        = $_POST['alertMaxsize'];
+        $maxSize             = $_POST['maxSize'];
+		$finfo               = new \finfo(FILEINFO_MIME_TYPE);
+        $detectSize          = $_FILES[$inputFileName]['size'] / 1048576; // chuyển đổi byte thành mb 
+        //  $allowExtension là array key, value
+        $arrAllowExt         = [];
+        foreach ($allowExtensionEXT as $key => $value) {
+            $arrAllowExt =  array_merge($arrAllowExt,[$value => $allowExtensionMIME[$key]]); 
+        }
+		if (false === array_search($finfo->file($_FILES[$inputFileName]['tmp_name']),$arrAllowExt, true)) {
+			$alert           = $alertExtension;
+			echo $alert;
+			die;
+		}
+		if ($detectSize > $maxSize) { //10 MB (size is also in bytes)
+			$alert           = $alertMaxsize;
+			echo $alert;
+			die;
+		}
+       
+    }
+===================================== FRONT END  UPLOAD 1 HÌNH ===========================================
+//========= HTML KHỞI TẠO
+    <div class="form-group">
+        <div class="logo_image">
+            <div>
+                <input type="file" name="image" class="UploadImage"  />
+            </div>
+        </div>
+    </div>
+     <div class="form-group">
+        <div class="logo_image">
+            <div>
+                <input type="file" name="image2" class="UploadImage2"  />
+            </div>
+        </div>
+    </div>
+//========= JS KHỞI TẠO
+ LƯU Ý: defaultValidate : true là dùng VALIDATE bằng AJAX request tới server
+       $('.UploadImage').Upload_Single(
+        {
+            inputFileName   : "image_main",
+            urlValidate     : "validate-upload",
+            defaultValidate : true,
+            allowExtension  : [{ext: "jpg",mime:"image/jpeg"},{ext: "png",mime:"image/png"}],
+            alertExtension  : "Vui lòng chọn jpg, png",
+            alertMaxsize    : "File không vượt quá 2MB",
+            maxSize         : 2
+        });
+        //============= XOÁ ================
+        $(document).on("click",".btnRemove",function () { 
+            let __this = this;
+            Swal.fire({
+                title: "Bạn có chắc chắn muốn xóa không?",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Đồng ý"
+            }).then(function (result) {
+            if (result.value) {
+                let check = $(__this);
+                let inputFile  = $(__this).closest(".parentImage").parent().find("input");
+                inputFile[0].value = "";
+                    $(__this).parent().hide();
+                    $(__this).closest(".parentImage").find(".textFiles").hide();
+                    $(__this).parent().find(".showImg").attr("src","");
+                    $(__this).closest(".parentImage").find(".notimage").show();
+                    $(__this).closest(".parentImage").find(".box_icon_upload").show();
+                    $(__this).closest(".parentImage").parent().find("input").attr("data-image","");
+                }
+            });
+        });
+
+
+===================================== FRONT END  UPLOAD NHIỀU HÌNH ===========================================
+//======= HTML KHỞI TẠO 
+    // KHỞI TẠO KHUNG UPLOAD THỨ 1
+    <div class="form-group">
+        <div  class="Test">
+        </div>
+    </div>
+
+    // KHỞI TẠO KHUNG UPLOAD THỨ 2
+    <div class="form-group">
+        <div  class="Test2">
+        </div>
+    </div>
+//======= JS KHỞI TẠO
+        // KHÔNG VALIDATE =>  defaultValidate : false, DÙNG VALIDATE =>  defaultValidate : true
+         // KHỞI TẠO KHUNG UPLOAD THỨ 1
+        $('.Test').Upload_Multiple({
+            classInputFile  : "multileImage", 
+            inputName       : "image",              // input name phải khác
+            urlValidate     : "validate-upload", 
+            inputCountFiles : "input1_count",       // input name cho bộ đếm phải khác
+            defaultValidate : false,
+            classRemove     : "btnremoveFile",
+            allowExtension  : [{ext: "jpg",mime:"image/jpeg"},{ext: "png",mime:"image/png"}],
+            alertExtension  : "Vui lòng chọn file hình png,jpg",
+            alertMaxsize    : "File không vượt quá 2MB",
+            maxSize         : 2
+        });
+        // KHỞI TẠO KHUNG UPLOAD THỨ 2
+        $('.Test2').Upload_Multiple({
+                classInputFile  : "multileImage", 
+                inputName       : "image_2",              // input name phải khác
+                urlValidate     : "validate-upload", 
+                inputCountFiles : "input2_count",       // input name cho bộ đếm phải khác
+                defaultValidate : true,
+                classRemove     : "btnremoveFile",
+                allowExtension  : [{ext: "png",mime:"image/png"}],
+                alertExtension  : "Vui lòng chọn file hình png",
+                alertMaxsize    : "File không vượt quá 2MB",
+                maxSize         : 2
+        });
+//=========== SERVER UPLOAD 
+        $input1_count       = $this->request->getPost('input1_count'); // input1_count của object inputCountFiles khi khởi tạo
+            for($i=0; $i < $input1_count; $i++)
+            {   
+                echo '<pre>';
+                var_dump($_FILES['image'.$i]);
+                echo '</pre>';
+            }
+            die;

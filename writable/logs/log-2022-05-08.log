@@ -1,0 +1,1161 @@
+CRITICAL - 2022-05-08 08:37:50 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:37:51 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:37:53 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:37:55 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:37:55 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:37:57 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:38:35 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:38:35 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:38:35 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:38:36 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-05-08 08:40:56 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:40:58 --> mysqli_sql_exception: Table '2022_mevabe.tbl_product_slogan' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(469): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('bo-be-gai-dai-a...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('bo-be-gai-dai-a...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:40:58 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `name`\nF...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(476): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('bo-be-gai-dai-a...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('bo-be-gai-dai-a...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:41:03 --> mysqli_sql_exception: Table '2022_mevabe.tbl_bank' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(627): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Cart.php(93): App\Models\MyModels->select_array('*', Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Cart->payment()
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:45:11 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:47:10 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:47:18 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:48:16 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:49:17 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-05-08 08:49:19 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:49:21 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:49:22 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:49:24 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 08:49:24 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-05-08 08:49:25 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:49:29 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-05-08 08:49:32 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-05-08 08:49:33 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:49:41 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-05-08 08:49:45 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-05-08 08:49:47 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-05-08 08:51:42 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-05-08 08:53:04 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:53:08 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:53:11 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:53:13 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:53:15 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:53:55 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:53:57 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:53:59 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:54:01 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:54:03 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:54:25 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:55:27 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:55:36 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:56:50 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:57:14 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:57:25 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:58:06 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:58:14 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 08:58:19 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:58:21 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:58:24 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 08:58:27 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 09:00:57 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-05-08 09:02:01 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-08 09:03:09 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-05-08 09:03:10 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-05-08 09:03:16 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-05-08 10:11:07 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:23:12 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:25:19 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:25:51 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:25:54 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 10:25:56 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 10:26:02 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:26:10 --> mysqli_sql_exception: Table '2022_mevabe.tbl_product_slogan' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(469): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('bo-be-gai-dai-a...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('bo-be-gai-dai-a...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:26:10 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `name`\nF...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(476): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('bo-be-gai-dai-a...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('bo-be-gai-dai-a...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:26:23 --> mysqli_sql_exception: Table '2022_mevabe.tbl_product_slogan' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(469): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('bo-be-gai-dai-a...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('bo-be-gai-dai-a...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:26:23 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `name`\nF...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(476): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('bo-be-gai-dai-a...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('bo-be-gai-dai-a...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:27:59 --> mysqli_sql_exception: Table '2022_mevabe.tbl_product_slogan' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(469): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('bo-be-gai-dai-a...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('bo-be-gai-dai-a...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:27:59 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `name`\nF...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(476): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('bo-be-gai-dai-a...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('bo-be-gai-dai-a...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:28:44 --> mysqli_sql_exception: Table '2022_mevabe.tbl_product_slogan' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(469): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('bo-be-gai-dai-a...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('bo-be-gai-dai-a...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:28:44 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `name`\nF...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(476): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('bo-be-gai-dai-a...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('bo-be-gai-dai-a...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:36:08 --> mysqli_sql_exception: Table '2022_mevabe.tbl_product_slogan' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(469): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('san-pham-so-sin...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham-so-sin...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:36:08 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `name`\nF...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(476): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('san-pham-so-sin...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham-so-sin...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:36:42 --> mysqli_sql_exception: Table '2022_mevabe.tbl_product_slogan' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(469): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('san-pham-so-sin...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham-so-sin...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:36:42 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `name`\nF...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(476): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('san-pham-so-sin...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham-so-sin...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:37:53 --> mysqli_sql_exception: Table '2022_mevabe.tbl_product_slogan' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(469): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('san-pham-so-sin...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham-so-sin...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:37:53 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `name`\nF...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(476): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('san-pham-so-sin...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham-so-sin...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:37:59 --> mysqli_sql_exception: Table '2022_mevabe.tbl_bank' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(627): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Cart.php(93): App\Models\MyModels->select_array('*', Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Cart->payment()
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 10:38:10 --> mysqli_sql_exception: Table '2022_mevabe.tbl_bank' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(627): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Cart.php(93): App\Models\MyModels->select_array('*', Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Cart->payment()
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 10:38:54 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:42:40 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:42:46 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(61): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:42:50 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(307): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->cate_product('san-pham')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 10:42:52 --> mysqli_sql_exception: Table '2022_mevabe.tbl_product_slogan' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(469): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('san-pham-so-sin...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham-so-sin...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-08 10:42:52 --> mysqli_sql_exception: Table '2022_mevabe.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `name`\nF...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`\nF...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`\nF...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `name`\nF...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(476): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Route.php(65): App\Controllers\Route->product('san-pham-so-sin...')
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Route->index('san-pham-so-sin...', '')
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-05-08 11:06:06 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Home->footer_register()
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-08 11:06:09 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Home->footer_register()
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-08 11:06:43 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Home->footer_register()
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-05-08 11:07:14 --> mysqli_sql_exception: Column 'phone' cannot be null in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Home.php(182): App\Models\MyModels->add(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Home->footer_register()
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-08 11:09:09 --> mysqli_sql_exception: Column 'phone' cannot be null in C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_mevabe\app\Models\MyModels.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Home.php(182): App\Models\MyModels->add(Array)
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Home->footer_register()
+#7 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

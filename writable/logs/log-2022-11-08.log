@@ -1,0 +1,7 @@
+CRITICAL - 2022-11-08 15:27:01 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\laragon\www\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Users->export()
+#1 C:\laragon\www\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Users))
+#2 C:\laragon\www\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}

@@ -1,0 +1,20 @@
+ERROR - 2022-08-24 15:12:28 --> Error connecting to the database: Unknown database '2022_lanhuonglip'
+CRITICAL - 2022-08-24 15:12:28 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(225): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\BaseController.php(58): CodeIgniter\Database\MySQLi\Connection->reconnect()
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(911): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-08-24 15:12:29 --> Error connecting to the database: Unknown database '2022_lanhuonglip'
+CRITICAL - 2022-08-24 15:12:29 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(225): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\BaseController.php(58): CodeIgniter\Database\MySQLi\Connection->reconnect()
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(911): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

@@ -1,0 +1,226 @@
+CRITICAL - 2022-04-03 04:25:32 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\app\Views\frontend\layout\menu_mobile.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\View\View.php(468): CodeIgniter\View\View->render('frontend/layout...', NULL, true)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Views\frontend\default.php(38): CodeIgniter\View\View->include('frontend/layout...')
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\Common.php(1217): CodeIgniter\View\View->render('frontend/defaul...', Array, true)
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Route.php(53): view('frontend/defaul...', Array)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Route->index('uploads', 'images', 'social', '2021', '12', 'thumb', 'social.jpg')
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#11 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-04-03 04:43:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\app\Views\frontend\layout\menu_mobile.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\View\View.php(468): CodeIgniter\View\View->render('frontend/layout...', NULL, true)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Views\frontend\default.php(38): CodeIgniter\View\View->include('frontend/layout...')
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\Common.php(1217): CodeIgniter\View\View->render('frontend/defaul...', Array, true)
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Route.php(53): view('frontend/defaul...', Array)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Route->index('cpanel', 'menuproduct', 'index')
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#11 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-04-03 04:47:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\MenuProduct.php(38): CodeIgniter\Model->__call('showMenuProduct', Array)
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\MenuProduct->index()
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\MenuProduct))
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-03 04:52:37 --> Class 'App\Models\PhotoProductModels' not found
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(910): App\Controllers\Cpanel\Product->__construct()
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-03 04:52:56 --> Class 'App\Models\LessonModels' not found
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(910): App\Controllers\Cpanel\Product->__construct()
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-03 04:54:01 --> Class 'App\Controllers\Cpanel\LessonModels' not found
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(910): App\Controllers\Cpanel\Product->__construct()
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-03 04:54:10 --> Class 'App\Models\StatusProductModels' not found
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(910): App\Controllers\Cpanel\Product->__construct()
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-03 04:54:39 --> Class 'App\Models\BrandModels' not found
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(910): App\Controllers\Cpanel\Product->__construct()
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-04-03 04:54:54 --> mysqli_sql_exception: Unknown column 'tbl_product.cateid' in 'on clause' in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_pro...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pro...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pro...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pro...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Product.php(56): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->index()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-03 04:55:00 --> mysqli_sql_exception: Table 'cesmk89_db.tbl_statusproduct' doesn't exist in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Product.php(168): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-03 04:55:00 --> mysqli_sql_exception: Table 'cesmk89_db.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(194): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Product.php(169): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-03 07:42:12 --> mysqli_sql_exception: Unknown column 'tbl_product.cateid' in 'on clause' in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_pro...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pro...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pro...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pro...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Product.php(56): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->index()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-03 07:43:07 --> mysqli_sql_exception: Unknown column 'tbl_product.cateid' in 'on clause' in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_pro...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pro...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pro...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pro...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Product.php(56): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->index()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-03 07:45:02 --> Use of undefined constant ADMIN_MENUPRODUCT_URL - assumed 'ADMIN_MENUPRODUCT_URL' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\CI_function.php(317): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 317, Array)
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\MenuProduct.php(38): App\Models\CI_function->showMenuProduct(0)
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\MenuProduct->index()
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\MenuProduct))
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-04-03 09:51:01 --> mysqli_sql_exception: Unknown column 'cateid' in 'where clause' in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `tbl_pro...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pro...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pro...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pro...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(147): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\MenuProduct.php(286): App\Models\MyModels->edit(Array, Array)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\MenuProduct->delete()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\MenuProduct))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-03 09:51:15 --> mysqli_sql_exception: Unknown column 'tbl_product.cateid' in 'on clause' in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_pro...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pro...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pro...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pro...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Product.php(56): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->index()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-03 09:51:18 --> mysqli_sql_exception: Table 'cesmk89_db.tbl_statusproduct' doesn't exist in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Product.php(168): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-03 09:51:18 --> mysqli_sql_exception: Table 'cesmk89_db.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(194): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Product.php(169): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-03 09:51:55 --> mysqli_sql_exception: Unknown column 'tbl_product.cateid' in 'on clause' in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_pro...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pro...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pro...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pro...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Product.php(56): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->index()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

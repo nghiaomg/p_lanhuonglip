@@ -1,0 +1,75 @@
+ERROR - 2022-08-17 16:40:30 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(94): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(88): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(53): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-17 16:49:30 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(94): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(88): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(53): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-17 16:49:52 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(94): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(88): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(53): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-17 16:50:37 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(94): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(88): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(53): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-17 17:00:55 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(94): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(88): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(53): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}

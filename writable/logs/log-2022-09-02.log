@@ -1,0 +1,714 @@
+ERROR - 2022-09-02 13:41:39 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:42:55 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:43:10 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(188): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:47:11 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(188): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:47:46 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(188): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:49:20 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:50:44 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:51:05 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:51:08 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:51:33 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:52:03 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:52:33 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:56:14 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:57:52 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:58:00 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 13:59:47 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:00:10 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:01:49 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:01:59 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:04:03 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:04:18 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:04:25 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:06:31 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:06:51 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:08:52 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:15:32 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:15:40 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(348): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:24:05 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:25:30 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:25:35 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:27:03 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:27:35 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:27:52 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:28:14 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:29:43 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:29:53 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:30:10 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:30:23 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:30:40 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(376): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:33:06 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(188): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:34:09 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(188): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:35:56 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(202): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:37:38 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(202): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->add()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:41:04 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(418): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:41:19 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(418): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:41:35 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(418): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:41:55 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(418): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:42:14 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(418): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:42:34 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(418): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-02 14:43:38 --> mysqli_sql_exception: Table '2022_lanhuonglip.tbl_brand' doesn't exist in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(713): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Product.php(418): App\Models\MyModels->select_array()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Product->edit('49')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Product))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-09-02 15:10:24 --> Call to a member function findOne() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cart->addCart()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-02 15:10:26 --> Call to a member function findOne() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cart->addCart()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

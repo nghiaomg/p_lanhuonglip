@@ -1,0 +1,28 @@
+ERROR - 2022-04-26 07:53:25 --> mysqli_sql_exception: Unknown column 'link' in 'field list' in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `tbl_pro...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pro...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pro...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pro...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(287): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Project.php(220): App\Models\MyModels->edit(Array, Array)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Project->edit('3')
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Project))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-26 08:07:04 --> mysqli_sql_exception: Unknown column 'link' in 'field list' in C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\projects2022\p_cesmk2\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_cesmk2\app\Models\MyModels.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projects2022\p_cesmk2\app\Controllers\Cpanel\Project.php(142): App\Models\MyModels->add(Array)
+#6 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(938): App\Controllers\Cpanel\Project->add()
+#7 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Project))
+#8 C:\xampp\htdocs\projects2022\p_cesmk2\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_cesmk2\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_cesmk2\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

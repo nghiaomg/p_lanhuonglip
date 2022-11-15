@@ -1,0 +1,270 @@
+ERROR - 2022-09-19 00:20:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` desc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(193): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 00:20:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` asc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(195): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 01:30:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` desc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(193): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 01:30:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` asc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(195): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 04:54:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` desc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(193): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 04:54:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` asc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(195): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 09:25:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` desc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(193): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 09:25:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` asc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(195): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 10:37:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` desc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(193): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 10:37:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` asc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(195): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 11:16:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` desc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(193): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 11:16:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` asc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(195): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 16:54:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` desc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(193): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 16:54:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` asc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(195): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 17:45:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` desc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(193): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 17:45:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` asc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(195): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 22:07:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` desc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(193): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-19 22:07:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `publish` = 1
+ORDER BY `id` asc' at line 4 in /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Models/MyModels.php(657): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(195): App\Models\MyModels->findOne()
+#6 /home/lanhuo9968/web/lanhuonglip.com/public_html/app/Controllers/Route.php(71): App\Controllers\Route->news()
+#7 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/lanhuo9968/web/lanhuonglip.com/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lanhuo9968/web/lanhuonglip.com/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}

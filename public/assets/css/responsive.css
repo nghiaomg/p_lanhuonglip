@@ -1,0 +1,177 @@
+@media screen and (min-width: 1200px) 
+{
+    
+}
+@media screen and (max-width: 1024px) 
+{
+    /*============== HEADER ============*/
+    .navmenu
+    {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 35px;
+        transform: translateY(-50%);
+        font-size: 24px;
+        color: white;
+        z-index: 999;
+    }
+    .toggle_menumobile
+    {
+        left: 0 !important;
+    }
+    #menuMobile
+    {
+        display: block;
+    }
+    #menuMobile a 
+    {
+        position: relative;
+    }
+    #menuMobile .arrow_menu
+    {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 17px;
+        right: 20px;
+    }
+    .mobile
+    {
+        display: block;
+        position: fixed;
+        width: 250px;
+        height: 100vh;
+        z-index: 1200;
+        left: -100%;
+        background: #E49D21 ;
+        filter: drop-shadow(2px 4px 6px rgba(0 0 0 / 40%));
+        transition: 0.4s;
+    }
+    .mobile .wrap
+    {
+        height: 90vh;
+        overflow: auto;
+    }
+    .mobile .wrap ul li 
+    {
+        padding: 12px 0px 0px 0px;
+        position: relative;
+    }
+    .mobile .submenu_1 
+    {
+        background: #1ca465 !important;
+        margin-top: 5px;
+    }
+    .mobile  .submenu
+    {
+        display: none;
+    }   
+    .mobile .wrap ul li a 
+    {
+        display: inline-block;
+        color: #333;
+        padding-left: 10px;
+        padding-bottom: 12px;
+        font-weight: 500;
+    }
+    .mobile .wrap ul li:not(:last-child)
+    {
+        border-bottom: 1px solid #dfb05e;
+    }
+    .mobile .wrap  .btnClose  
+    {
+        position: relative;
+        padding: 20px 0px;
+    }
+    .mobile .wrap  .btnClose   i
+    {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    /*=============== BANNER ============*/
+}
+@media screen and (max-width: 992px) 
+{
+    /*============ lang ===============*/
+    .langBox {
+        position: absolute;
+        top: 28px;
+        right: 20px;
+        z-index: 999999999;
+    }
+    /*============ left ===============*/
+    .tz-home-slide .tz-home-left {
+        width: 100%;
+        height: auto;
+        float: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999999;
+        /* background: rgba(0, 0, 0, .7); */
+        padding: 0 25px;
+    }
+    .tz-home-slide .tz-home-left .tz-home-left-box .tz-home-logo {
+        padding: 10px 20px;
+    }
+    .tz-home-slide .tz-home-left .tz-home-left-box .tz-home-logo .tz_logo img{
+        height: 60px !important;
+        width: auto !important;
+    }
+    /*============ right ===============*/
+    .tz-home-slide .tz-home-right {
+        padding-left: 0;
+    }
+    .slider-sub-title {
+        font-size: 18px;
+    }
+    .slider-title {
+        font-size: 35px;
+    }
+    /*============ booking form ===============*/
+    .bookingForm .box .contents .item_group .item {
+        width: 100%;
+    }
+    .bookingForm .box .contents .item_group {
+        flex-direction: column;
+    }
+    .bookingForm .box .contents {
+        height: 65vh;
+        overflow-y: scroll;
+    }
+    .bookingForm .box .contents .item_group .item.w40, .bookingForm .box .contents .item_group .item.w60 {
+        width: 100%;
+    }
+    .bookingForm .box .contents .item_group .item .radioGroup .radio {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 612px) 
+{
+    .slider-container {
+        padding: 0 10px;
+    }
+    .slider-title {
+        font-size: 25px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        display: none !important;
+    }
+    .tz-home-slide .tz-home-left .tz-home-left-box .tz-home-logo .tz_logo {
+        text-align: center;
+    }
+    .slider-buttton {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 412px) 
+{
+    
+    
+}

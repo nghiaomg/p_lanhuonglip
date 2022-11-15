@@ -1,0 +1,81 @@
+CRITICAL - 2022-04-27 13:42:46 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-27 13:42:46 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-27 13:43:09 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-27 13:43:09 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-27 13:43:51 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-27 13:43:52 --> Call to undefined method App\Controllers\Home::show404()
+#0 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(972): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#1 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-27 13:46:38 --> unlink(uploads/images/news/2022/04/thumb/admin-cap-nhat-noi-dung-bai-viet.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/...', 'C:\\xampp\\htdocs...', 393, Array)
+#1 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Cpanel\News.php(393): unlink('uploads/images/...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Cpanel\News->deleteAll()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\News))
+#4 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-27 13:46:44 --> unlink(uploads/images/news/2022/04/thumb/admin-cap-nhat-noi-dung-bai-viet.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/...', 'C:\\xampp\\htdocs...', 393, Array)
+#1 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Cpanel\News.php(393): unlink('uploads/images/...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Cpanel\News->deleteAll()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\News))
+#4 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-27 13:46:52 --> rmdir(uploads/images/news/2022/04/thumb): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rmdir(uploads/i...', 'C:\\xampp\\htdocs...', 354, Array)
+#1 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Cpanel\News.php(354): rmdir('uploads/images/...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Cpanel\News->delete()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\News))
+#4 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-27 13:47:37 --> unlink(uploads/images/news/2022/04/thumb/admin-cap-nhat-noi-dung-bai-viet.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/...', 'C:\\xampp\\htdocs...', 393, Array)
+#1 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Cpanel\News.php(393): unlink('uploads/images/...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Cpanel\News->deleteAll()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\News))
+#4 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-27 13:50:18 --> rmdir(uploads/images/news/2022/04/thumb): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rmdir(uploads/i...', 'C:\\xampp\\htdocs...', 354, Array)
+#1 C:\xampp\htdocs\projects2022\p_mevabe\app\Controllers\Cpanel\News.php(354): rmdir('uploads/images/...')
+#2 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(938): App\Controllers\Cpanel\News->delete()
+#3 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\News))
+#4 C:\xampp\htdocs\projects2022\p_mevabe\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_mevabe\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_mevabe\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

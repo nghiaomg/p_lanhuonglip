@@ -1,0 +1,98 @@
+ERROR - 2022-09-05 10:50:12 --> mysqli_sql_exception: Unknown column 'date_give' in 'order clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *, DATE_...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, DATE_...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, DATE_...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *, DATE_...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(209): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Order.php(54): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Order->index()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Order))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-09-05 11:00:31 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-05 11:00:32 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-05 11:00:32 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-05 11:00:33 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-05 11:00:33 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-05 11:13:25 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-05 11:24:58 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-05 16:17:11 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-05 16:18:02 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-05 16:19:03 --> Call to a member function full_query() on null
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-09-05 16:20:32 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tbl_pro...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_pro...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_pro...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_pro...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(209): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Cpanel\Cart.php(51): App\Models\MyModels->full_query(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Cart->view()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Cart))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

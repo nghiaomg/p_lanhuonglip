@@ -1,0 +1,215 @@
+ERROR - 2022-06-17 01:06:26 --> mysqli_sql_exception: Table 'sietmvb89_db.tbl_brand' doesn't exist in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 04:39:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `id` desc' at line 3 in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 06:52:57 --> mysqli_sql_exception: Table 'sietmvb89_db.tbl_product_slogan' doesn't exist in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(469): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(65): App\Controllers\Route->product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 06:52:57 --> mysqli_sql_exception: Table 'sietmvb89_db.tbl_brand' doesn't exist in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(476): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(65): App\Controllers\Route->product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 09:20:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `id` desc' at line 3 in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 10:42:58 --> mysqli_sql_exception: Table 'sietmvb89_db.tbl_brand' doesn't exist in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 12:34:17 --> mysqli_sql_exception: Table 'sietmvb89_db.tbl_brand' doesn't exist in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 12:35:32 --> mysqli_sql_exception: Table 'sietmvb89_db.tbl_brand' doesn't exist in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 12:35:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `id` desc' at line 3 in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 12:35:52 --> mysqli_sql_exception: Table 'sietmvb89_db.tbl_brand' doesn't exist in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 12:35:54 --> mysqli_sql_exception: Table 'sietmvb89_db.tbl_brand' doesn't exist in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 15:09:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `id` desc' at line 3 in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 15:29:35 --> mysqli_sql_exception: Table 'sietmvb89_db.tbl_product_slogan' doesn't exist in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(469): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(65): App\Controllers\Route->product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 15:29:35 --> mysqli_sql_exception: Table 'sietmvb89_db.tbl_brand' doesn't exist in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(476): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(65): App\Controllers\Route->product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-17 21:56:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `id` desc' at line 3 in /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Models/MyModels.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(307): App\Models\MyModels->full_query()
+#6 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/app/Controllers/Route.php(61): App\Controllers\Route->cate_product()
+#7 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(938): App\Controllers\Route->index()
+#8 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController()
+#9 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/system/CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sietmvb89/web/sieuthibeyeu.vn/public_html/index.php(43): CodeIgniter\CodeIgniter->run()
+#11 {main}

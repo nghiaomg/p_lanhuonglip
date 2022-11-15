@@ -1,0 +1,1002 @@
+ERROR - 2022-08-21 09:33:56 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(88): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(53): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 09:38:35 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(88): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(53): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 09:42:49 --> mysqli_sql_exception: Unknown column 'Array' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(165): App\Models\MyModels->selectArray('id, name, alias...', Array, '', 0, 15, NULL, 'id', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(59): App\Controllers\Route->news('eucalyptus-bene...')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('eucalyptus-bene...', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 09:43:10 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(90): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:04:05 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(92): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:05:25 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(90): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:16:53 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(90): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:17:06 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(90): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:17:14 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(92): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:17:14 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(124): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:20:52 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(90): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:23:45 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(90): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:24:33 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(90): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:25:13 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(90): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:25:16 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(90): App\Models\MyModels->selectCount(Array, NULL, 'cateid', Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('tin-tuc')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('tin-tuc', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:31:18 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:31:18 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:33:01 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:33:01 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:35:14 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:35:14 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:35:49 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:35:49 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:41:40 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:41:40 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:42:30 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:42:30 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:42:49 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:42:49 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('makeup')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('makeup', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:43:00 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('skincare')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('skincare', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:43:00 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('skincare')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('skincare', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:51:13 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:51:13 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:57:39 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:57:39 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:57:58 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:57:58 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:59:31 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:59:31 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:59:56 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 10:59:56 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(98): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 11:00:50 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 11:00:50 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(96): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 11:01:08 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 11:01:08 --> mysqli_sql_exception: Unknown column 'tbl_news.publish' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(111): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(96): App\Models\MyModels->selectCount(Array)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 11:01:28 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 11:01:36 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 11:33:48 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 11:58:09 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 11:59:59 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 12:00:01 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:00:08 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:00:09 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:00:09 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:00:09 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:00:09 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:00:10 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:00:10 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:00:29 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 12:00:32 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:00:50 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 12:00:53 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:01:35 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 12:01:38 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(472): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 0)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:02:41 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-21 12:02:44 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(473): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 3, 3)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-21 12:03:04 --> mysqli_sql_exception: Unknown column 'cate' in 'where clause' in C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `n...')
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Models\MyModels.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(89): App\Models\MyModels->selectArray('id, name, alias...', Array, 'id desc', 0, 5)
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(55): App\Controllers\Route->cate_news('hair-body')
+#7 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('hair-body', '')
+#8 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#9 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-08-21 14:44:38 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 494, Array)
+#1 C:\xampp\htdocs\projects2022\p_lanhuonglip\app\Controllers\Route.php(494): count(NULL)
+#2 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->loadNews()
+#3 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#4 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

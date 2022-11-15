@@ -1,0 +1,188 @@
+.boox__btn
+{
+    text-align: center;
+    padding: 14px 0px 0px 0px;
+}
+/* nang cap tin */
+.same_modal .modal-title
+{
+    font-size: 18px;
+    filter: drop-shadow(0px 1px 0px rgba(0 0 0 / 60% ));
+}
+.same_modal  .modal-header {
+    padding: 15px 25px;
+}
+.cl-red
+{
+    color: red;
+}
+.fw_bold
+{
+    font-weight: bold;
+}
+.same_modal .box__des
+{
+    padding: 17px 40px;
+    background: #eee;
+    border-radius: 5px;
+}
+.same_modal  .vip_label
+{
+    cursor: pointer;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: -webkit-inline-box;
+}
+.same_modal .box__des ul 
+{
+    margin: 0;
+    padding: 0;
+}
+.same_modal .modal-body .box__items
+{
+    padding: 20px 0px;
+}
+.same_modal .modal-body .box__items .row
+{
+    margin: 0;
+}
+.same_modal .modal-body .item 
+{
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+.same_modal .modal-body .item select
+{
+    border-radius: 0px !important;
+    cursor: pointer;
+}
+
+.same_modal .modal-body .item .l-label
+{
+    display: inline-block;
+    width: 100%;
+}
+.same_modal .modal-body .item>div:nth-child(1)
+{
+    display: flex;
+    align-items: center;
+}
+.same_modal  .btn_nangcaptin
+{
+    width: 100%;
+    font-size: 15px;
+}
+.same_modal .modal-body  .box__hidden
+{
+}
+/* end popup */
+#loadTable  .sp_dots
+{
+    transform: translateY(18px) !important;
+}
+.logo_image{
+    width: 100%;
+    position: relative;
+}
+.logo_image .image_box {
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    border: 5px solid  rgba(45, 166, 51,1);
+}
+.logo_image .image_box img{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: scale-down;
+}
+.logo_image .choose_files{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_image .choose_files input[type='file']{
+    display: none;
+}
+.logo_image:hover .choose_files label{
+    display: flex;
+}
+.logo_image .choose_files label{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+}
+/* ===edit=== */
+.logo_image .image_box a
+{
+    position: absolute;
+    right: 0;
+    border-radius: unset;
+}
+.postList .box_img_post{
+    background-size: cover;
+    background-position: center;
+    height: 75px;
+    width: 85px;
+}
+.postList .name_post{
+    margin: 0px;
+    font-size: 1.05rem;
+    color: #205598;
+    font-weight: 700 !important;
+    padding-bottom: 5px;
+}
+.postList .time_update{
+    margin-bottom: 5px;
+    font-style: italic;
+    text-align: right;
+    font-size: 13px !important;
+}
+.postList .tools{
+    margin: 5px 0px 5px;
+}
+.postList .tools a{
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+.postList .table thead th {
+    text-transform: unset;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    font-size: 1rem;
+    color: #222;
+}
+.postList .card-title{
+    margin-bottom: 15px !important;
+}
+.formSearchPost .form-control {
+    padding: 6px 25px !important;
+    border-radius: 5px !important;
+}
+.formSearchPost .btn-sm {
+    padding: 5px 15px !important;
+}

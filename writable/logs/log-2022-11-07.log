@@ -1,0 +1,22 @@
+ERROR - 2022-11-07 09:33:57 --> Error connecting to the database: Unknown database '2022_lanhuonglip'
+CRITICAL - 2022-11-07 09:33:57 --> Unable to connect to the database.
+#0 C:\laragon\www\system\Database\MySQLi\Connection.php(225): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\app\Controllers\BaseController.php(58): CodeIgniter\Database\MySQLi\Connection->reconnect()
+#2 C:\laragon\www\system\CodeIgniter.php(911): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\laragon\www\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->createController()
+#4 C:\laragon\www\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-07 04:16:17 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\laragon\www\p_lanhuonglip\system\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\p_lanhuonglip\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\p_lanhuonglip\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\p_lanhuonglip\spark(53): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2022-11-07 16:11:19 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\laragon\www\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Cpanel\Users->export()
+#1 C:\laragon\www\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Users))
+#2 C:\laragon\www\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}

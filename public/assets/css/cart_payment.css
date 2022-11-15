@@ -1,0 +1,279 @@
+.form-control {
+    font-size: 15px;
+}
+.mess_alert{
+    color: #BF1E2E;
+    font-style: italic;
+}
+.cart_payment
+{
+    margin: 30px 0px;
+    min-height: 240px;
+}
+.cart_payment .title_payment
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.cart_payment .boxProduct 
+{
+    background: #f2f2f2;
+}
+.cart_payment .boxProduct .headline
+{
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.cart_payment .name_payment
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.cart_payment .boxProduct .productItems 
+{
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/* width */
+.cart_payment .boxProduct .productItems::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+.cart_payment .boxProduct .productItems::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+.cart_payment .boxProduct .productItems::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+.cart_payment .boxProduct .productItems::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.cart_payment .boxProduct .productItems  .items
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.cart_payment .boxProduct .productItems  .items:not(:last-child)
+{
+    border-bottom: 1px solid #ddd;
+}
+.cart_payment .boxProduct .productItems  .items .img_product img
+{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+}
+
+.cart_payment .boxProduct .productItems  .items  .name_qty_product
+{
+    font-weight: bold;
+}
+.cart_payment .boxProduct  .group-total
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 0px 15px;
+    border-top: 1px solid #ddd;
+}
+.cart_payment .boxProduct  .group-total .price span
+{
+    font-size: 24px;
+}
+.cart_payment  .btbDathang 
+{
+    padding: 15px;
+}
+.cart_payment  .btbDathang a
+{
+    display: block;
+    padding: 15px;
+    text-align: center;
+    background: #BF1E2E;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.cart_payment .box_payment_method
+{
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.cart_payment .box_payment_method .linetop
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart_payment .box_payment_method  .item_method:nth-child(1) .linetop
+{
+    margin-bottom: 10px;
+}
+.cart_payment .box_payment_method .frm_checked
+{
+    display: flex;
+    align-items: center;
+}
+.cart_payment .box_payment_method .frm_checked label
+{
+    margin-bottom: 0px;
+}
+.cart_payment .box_payment_method .linetop i
+{
+    font-size: 24px;
+    color: #BF1E2E;
+}
+.cart_payment .box_payment_method .input-radio
+{
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: inherit;
+    border: none;
+    background: transparent;
+    line-height: normal;
+    width: 18px;
+    height: 18px;
+    box-shadow: 0 0 0 0 #bbbbbb inset;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    vertical-align: -4px;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    margin-right: 6px;
+}
+.cart_payment .box_payment_method .input-radio:checked
+{
+    border: none;
+    box-shadow: 0 0 0 10px #337ab7 inset;
+}
+.cart_payment .box_payment_method .input-radio::after
+{
+    content: '';
+    width: 4px;
+    height: 4px;
+    margin-left: -2px;
+    margin-top: -2px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition:  all 0.2s ease-in-out 0.1s;
+}
+.cart_payment .name_pd a 
+{
+    color: black;
+}
+.cart_payment .box_payment_method .boxBanks
+{
+    margin-top: 10px;
+    display: none;
+}
+.cart_payment .box_payment_method .toggleBank
+{
+    display: block !important;
+}
+.cart_payment .box_payment_method .boxBanks .item_banks
+{
+    background: #f3f3f3;
+    padding: 15px;
+}
+.cart_payment .box_payment_method .boxBanks .item_banks:not(:last-child)
+{
+    border-bottom: 1px solid #ddd;
+}
+.cart_payment .btnback
+{
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.cart_payment .btnback a:hover 
+{
+  color: #BF1E2E;
+}
+
+
+/*================ GIỎ HÀNG ===============*/
+.giohang
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 400px;
+    background-color: #FFF;
+    padding-top: 15px;
+}
+.giohang  .itemProduct:not(:last-child)
+{
+    border-bottom: 1px solid #ddd;
+}
+.giohang thead
+{
+    display: none;
+}
+
+.giohang .img_product 
+{
+    padding: 15px;
+}
+.maxContentTable
+{
+    width: max-content;
+}   
+.first_td 
+{
+    position: sticky;
+    left: 0;
+    background: white;
+}
+.td_price_remove,.td_group_amount
+{
+    padding: 0px 15px;
+}
+.giohang .scrollTable
+{
+    overflow: auto;
+}
+.giohang .tableproduct
+{
+    width: auto;
+}
+.giohang table
+{
+    width:100%;
+}
+.giohang .img_product img
+{
+    width: 100%;
+}
+
+.giohang  .btnRemove
+{
+    font-size: 24px;
+    cursor: pointer;
+}
+.giohang  #btnstartPayment
+{
+    border-top: none;
+}
+.giohang  .width_name
+{
+    width: 450px;
+}

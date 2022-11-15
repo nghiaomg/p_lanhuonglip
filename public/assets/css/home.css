@@ -1,0 +1,663 @@
+/*============ BANNER ===============*/
+.banner 
+{
+    position: relative;
+}
+.banner  .container
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+.banner  .bannerSlide .content 
+{
+    position: relative;
+    /* height: 650px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 680px;
+}
+.banner  .bannerSlide  .swiper-slide-active .content .text h2,
+.banner  .bannerSlide  .swiper-slide-active .content .text .des, 
+.banner  .bannerSlide  .swiper-slide-active .content .text .btnSame
+{
+    margin-left: 0px !important;
+}
+.banner  .bannerSlide .content .text 
+{
+    padding: 90px 0px;
+    text-align: left;
+    color: white;
+   
+}   
+.banner  .bannerSlide .content .text h2
+{
+    font-size: 68px;
+    font-weight: 700;
+    margin-left: -100%;
+    transition: 0.8s;
+}
+.banner  .bannerSlide .content .text .des
+{
+    font-size: 19px;
+    width: 50%;
+    margin-top: 25px;
+    margin-left: -100%;
+    transition: 1s;
+}
+.banner  .bannerSlide .content .text  .btnAnimate
+{
+    margin-left: -100%;
+    transition: 1.2s;
+}
+
+.banner .suft
+{
+    bottom: -3px;
+    position: absolute;
+    z-index: 30;
+}
+.banner .suft img 
+{
+    width: 100%;
+}
+.banner .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 100px;
+}
+.banner .swiper-pagination-bullet
+{
+    background: #909090 !important;
+    opacity: 1;
+}
+.banner .swiper-pagination-bullet-active
+{
+    background: #FFB400 !important;
+}
+
+/*======================= ABOUT  ======================*/
+.about
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.about .des 
+{
+    line-height: 28px;
+    margin-top: 20px;
+}
+.about .right
+{
+    padding-top: 20px;
+}
+.about .right .linetop
+{
+    background: #ECF9F1;
+}
+.about .right .linetop::before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: -12px;
+    height: 20px;
+    background: green;
+    left: 0;
+    z-index: -1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.about .right .linetop .content
+{
+    /* display: block !important; */
+}
+.about .right .item 
+{
+    padding: 20px;
+  
+    position: relative;
+    border-radius: 12px;
+}
+.about .right .title
+{
+    align-items: center;
+    cursor: pointer;
+}
+.about .right .title .icon
+{
+    padding: 7px;
+    filter: drop-shadow(2px 0px 4px rgba(0 0 0 / 18%));
+    background: white;
+    border-radius: 5px; 
+}
+.about .right .title .icon img 
+{
+    max-width: 100%;
+}
+.about .right .title .text 
+{
+    margin-left: 20px;
+}
+.about .right .item  .content
+{
+    margin-top: 15px;
+    display: none;
+  
+}
+
+.about .item_about_news .box_img
+{
+    padding: 20px 0px;
+}
+.about .item_about_news:nth-child(1)
+{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.about .item_about_news:nth-child(3)
+{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.about .item_about_news img
+{
+    width: 100%;
+    height: 185px;
+    object-fit: cover;
+}
+.about .item_about_news 
+{
+    cursor: pointer;
+}
+.about .item_about_news:not(:last-child) .title
+{
+    font-size: 16px;
+}
+.about .item_about_news .title
+{
+    line-height: 26px;
+    color: white;
+    padding: 0px 0px 20px 0px;
+}
+.about .item_about_news .end__item_about  .title
+{
+    line-height: 40px;
+}
+.about .item_about_news .end__item_about 
+{
+    height: 100%;
+    
+    font-weight: 700;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+   
+}
+.about .item_about_news  .end__item_about:hover
+{
+    background: #FFB400 !important;
+}
+/*======================= SERVICE  ======================*/
+.service
+{
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.service .box_col img
+{
+    height: 257px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.service .box_col .title
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+.suft_service
+{
+    width: 100%;
+    margin-top: 40px;
+}
+.service .suft_service
+{
+    width: 100%;
+    margin-top: -60px;
+}
+/*======================= DỰ ÁN TIÊU BIỂU   ======================*/
+.typical_projects .box
+{
+    display: flex;
+    border-radius: 5px;
+    color: white;
+    background: #CFE4DC;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.typical_projects  .boxScroll
+{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.typical_projects  .boxScroll .row 
+{
+    flex-wrap: nowrap;
+    margin: 0;
+}
+.typical_projects  .boxScroll .col-auto
+{
+    padding: 0 10px;
+}
+.typical_projects  .item
+{
+    display: flex;
+    align-items: center;
+}
+.typical_projects  .item img 
+{
+    max-width: 100%;
+    height: 27px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+.typical_projects  .item .name
+{ 
+    font-size: 13px;
+    font-weight: 500;
+}
+.typical_projects .wrap_img img 
+{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.typical_projects  .btnSame 
+{
+    margin-top: 15px ;
+}
+.typical_projects .wrap_img .col-md-4 a 
+{
+    display: block;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.typical_projects .wrap_img .col-md-4
+{
+    filter: drop-shadow(2px 4px 7px rgba(0 0 0 / 30%));
+}
+.typical_projects .wrap_img .col-md-4 a:hover  .title_project
+{
+    bottom: 0;
+}
+.typical_projects .title_project
+{
+    background: rgba(0 0 0 / 55%);
+    position: absolute;
+    width: 100%;
+    bottom: -100%;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+
+/*======================= BÁO GIÁ DỊCH VỤ  ======================*/
+.service_price
+{
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+
+.service_price .sameBox:hover
+{
+    background: #FFB400  !important;
+}
+.service_price .wrap
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-position-y: 24px;
+}
+.service_price  .wrap .row
+{
+    justify-content: flex-end;
+}
+.service_price .box__items .title
+{
+    display: flex;
+    align-items: center;
+}
+.service_price .box__items .title img
+{
+    max-width: 100%;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.service_price .box__items .title .text
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.service_price .box__items .des 
+{
+    font-size: 16px;
+    line-height: 28px;
+    font-style: normal;
+    margin-top: 10px;
+    color: #46515F;
+    font-weight: 500;
+}
+.service_price  .support
+{
+    position: relative;
+}
+.service_price  .sp_bg
+{
+    width: 100%;
+    height: 50%;
+    position:absolute;
+    background: #048449;
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.service_price  .support .title_support
+{
+    padding: 24px 222px;
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+.service_price  .support .title_support h2 
+{
+    color: white !important;
+}
+
+.service_price  form
+{
+    position: relative;
+    z-index: 30;
+}   
+.service_price  .support .sameBox 
+{
+    background: #ECF9F0;
+    padding: 20px;
+    border-radius: 10px;
+    height: 370px;
+}
+.service_price  .support .sameBox .title
+{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #048449;
+}
+.service_price  .support .samBox
+{
+    border-radius: 10px;
+}
+.service_price  .support .sameBox .fields_btn input
+{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 23px;
+    border: 1px solid #ddd;
+    position: relative;
+    outline: none !important;
+}
+.service_price  .support .sameBox .fields_btn .itInput
+{
+    position: relative;
+}
+.service_price  .support .sameBox .fields_btn .itInput span
+{
+    position: absolute;
+    top: 17%;
+    right: 15px;
+    color: #ababab;
+}
+
+.service_price  .support .sameBox .checkInput .container_checkbox
+{
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.service_price  .support .sameBox .checkInput .container_checkbox input
+{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.service_price .container_checkbox input:checked ~ .checkmark {
+    background-color: green;
+}
+.service_price  .support .sameBox .checkInput .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+
+.service_price  .support .sameBox .checkInput .container_checkbox:hover input ~ .checkmark {
+    background-color: green;
+}
+
+  
+.service_price  .support .sameBox .checkInput .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.service_price  .support .sameBox .checkInput .container_checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+.service_price  .support .sameBox .checkInput .container_checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+.service_price  .support .sameBox .checkInput .container_checkbox .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 7px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.service_price  .support .sameBox .checkInput
+{
+    justify-content: space-around;
+}
+.service_price  .support .sameBox .btnSame {
+    margin-top: 15px;
+}
+.service_price  .support .sameBox .checkInput
+{
+    height: 36px;
+}
+.service_price  .support .leftBox:hover
+{
+    background: #ECF9F0 !important;
+}
+.service_price  .support .rightBox .title  
+{
+ color: white;
+}
+/*=================== CUSROMER FEEDBACK  ===============*/
+.customer_feedback
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.customer_feedback .btnFeedBack
+{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 31px;
+    z-index: 200;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.customer_feedback .btnFeedBack img 
+{
+    max-width: 100%;
+    margin-right: 10px;
+}
+.customer_feedback .title
+{
+    color: white !important;
+    text-align: center ;
+}
+
+.customer_feedback
+{
+    padding: 50px 0px 0px 0px;
+    position: relative;
+}
+.customer_feedback .box
+{
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+.customer_feedback .box .col-item
+{
+    line-height: 32px;
+    justify-content: center;
+}
+.customer_feedback .box .col-item .Boximg
+{
+    margin-right: 14px;
+}
+.customer_feedback .box .col-item .Boximg img
+{
+    border-radius: 100%;
+}
+.customer_feedback .box .col-item .name 
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+.customer_feedback .box .col-item .management 
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 0px 10px 0px;
+}
+.customer_feedback .box .col-item .icon
+{
+    max-width: 100% !important;
+}
+.customer_feedback .box .col-item .icon img
+{
+    max-width: 100% !important;
+    width: 20px;
+    margin: 0 auto;
+}
+.customer_feedback .box  .desc
+{
+    font-weight: 500;
+    font-size: 16px;
+    color: #048449;
+    margin-top: 14px;
+    line-height: 25px;
+    text-align: justify;
+}
+.customer_feedback .swiper-wrapper
+{
+    padding-bottom: 45px;
+}
+.customer_feedback   .swiper-pagination  
+{
+    bottom: -2px !important;
+    z-index: 200;
+}
+.customer_feedback  .suft_service
+{
+    width: 100%;
+    margin-top: -10px !important;
+}
+/*=================== NEWS ============*/
+.news
+{
+    padding-bottom: 40px;
+}
+.news .box img
+{
+    height: 225px;
+    object-fit: cover;
+    width: 100%;
+}
+.news .box a 
+{
+    display: block;
+    color: initial;
+}
+
+.news .box a:hover 
+{
+    color: initial;
+}
+.news .box a:hover .title
+{
+    color: #048449 ;
+}
+.news .box .title 
+{
+    padding: 12px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+.news .box  .des
+{
+    font-size: 18px;
+    text-align: left;
+}
+.news .swiper-wrapper
+{
+    padding-bottom: 50px;
+}
+
+.news .swiper-pagination-bullet
+{
+   background: gray !important;
+}
+.news .swiper-pagination-bullet-active {
+    background: #FFB400 !important;
+}

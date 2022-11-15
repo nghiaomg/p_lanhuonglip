@@ -1,0 +1,129 @@
+.mess_alert
+{
+    margin-top: 5px;
+    color: red;
+    font-weight: 400;
+}
+#loading
+{
+    display: none;
+}
+.overplay
+{
+    position: fixed;
+    background: #686767;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    
+}
+#loading img 
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* width: 124px; */
+    z-index: 200;
+}
+.box_overplay
+{
+    display: none;
+}
+.box_overplay .overplay_footer
+{
+    position: fixed;
+
+    left: 0;
+    top: 0;
+    background: rgba(0 0 0 / 40%);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.box_overplay #loading_footer
+{
+    display: block;
+    width: 120px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1400;
+}
+.contact_section{
+    background-color: #FFF;
+    padding-top: 15px;
+}
+#contact 
+{
+    padding: 24px;
+}
+#contact .wrap 
+{
+    margin: 0 auto;
+}
+
+#contact  .wrap .title
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ced4da;
+    height: 30px;    
+}
+#contact  .wrap .box_content #content
+{
+    width: 100%;
+    border-radius: 3px;
+  
+    padding: 8px;
+}
+#contact  .btn_contact
+{
+    background-color: #42A644;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 6px 10px;
+    border: none;
+    width: 110px;
+    font-weight: bold;
+}
+/*============== tutorial ==================== */
+.box_tutorial .title{
+    background: linear-gradient(30deg, #106BA4 10%, #0d5887 58%, #07466d 100%);
+    color: #FFF;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.box_tutorial ul{
+    padding: 5px 0px 5px 25px;
+    margin: 0px;
+    border: 1px solid #ddd;
+}
+.box_tutorial ul li{
+    list-style: square;
+    padding: 3px 0px;
+}
+.box_tutorial ul li::marker {
+  color: #0A4E79;
+}
+.box_tutorial ul li a{
+    color: #333;
+    font-weight: 500;
+}
+.box_tutorial ul li a:hover{
+    color: #F00;
+}
+@media screen and (max-width: 668px) 
+{
+    .form_contact .box {
+        width: 90% !important;
+    }
+    .contact_section .body_content .info_contact {
+        margin-bottom: 1.5rem;
+    }
+}

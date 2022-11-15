@@ -1,0 +1,28 @@
+ERROR - 2022-01-13 20:06:03 --> mysqli_sql_exception: Unknown column 'sort' in 'field list' in C:\xampp\htdocs\projects\p_flynhatrang\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\p_flynhatrang\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT MAX(`sor...')
+#1 C:\xampp\htdocs\projects\p_flynhatrang\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(`sor...')
+#2 C:\xampp\htdocs\projects\p_flynhatrang\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(`sor...')
+#3 C:\xampp\htdocs\projects\p_flynhatrang\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`sor...', Array, false)
+#4 C:\xampp\htdocs\projects\p_flynhatrang\app\Models\MyModels.php(262): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\p_flynhatrang\app\Controllers\Cpanel\Constants.php(73): App\Models\MyModels->select_max('sort')
+#6 C:\xampp\htdocs\projects\p_flynhatrang\system\CodeIgniter.php(938): App\Controllers\Cpanel\Constants->edit('285')
+#7 C:\xampp\htdocs\projects\p_flynhatrang\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Constants))
+#8 C:\xampp\htdocs\projects\p_flynhatrang\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\p_flynhatrang\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects\p_flynhatrang\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-13 20:06:14 --> mysqli_sql_exception: Unknown column 'sort' in 'field list' in C:\xampp\htdocs\projects\p_flynhatrang\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\projects\p_flynhatrang\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT MAX(`sor...')
+#1 C:\xampp\htdocs\projects\p_flynhatrang\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(`sor...')
+#2 C:\xampp\htdocs\projects\p_flynhatrang\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(`sor...')
+#3 C:\xampp\htdocs\projects\p_flynhatrang\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`sor...', Array, false)
+#4 C:\xampp\htdocs\projects\p_flynhatrang\app\Models\MyModels.php(262): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projects\p_flynhatrang\app\Controllers\Cpanel\Constants.php(73): App\Models\MyModels->select_max('sort')
+#6 C:\xampp\htdocs\projects\p_flynhatrang\system\CodeIgniter.php(938): App\Controllers\Cpanel\Constants->edit('285')
+#7 C:\xampp\htdocs\projects\p_flynhatrang\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel\Constants))
+#8 C:\xampp\htdocs\projects\p_flynhatrang\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projects\p_flynhatrang\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projects\p_flynhatrang\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

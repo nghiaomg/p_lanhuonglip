@@ -1,0 +1,39 @@
+form.parsley-examples .logo_image{
+    position: relative;
+}
+form.parsley-examples .logo_image div label{
+    position: relative;
+    width: 100%;
+    background: #64c5b1;
+    text-align: center;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+form.parsley-examples .logo_image div label:hover{
+    background: cadetblue;
+}
+form.parsley-examples .logo_image .image_box{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+form.parsley-examples .logo_image .image_box img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    object-fit: contain;
+}
+
+form.parsley-examples .logo_image #image
+,form.parsley-examples .logo_image .image{
+    display: none;
+}
+form.parsley-examples .logo_image #image_social{
+    display: none;
+}

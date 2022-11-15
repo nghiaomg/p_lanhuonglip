@@ -1,0 +1,72 @@
+/* ======================tin đăng====================== */
+.home_newsLand 
+{
+    padding: 20px 0px;
+}
+.home_newsLand .ouside_box_newsland {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.home_newsLand .top__title .title_newsLand{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.home_newsLand .top__title  .des_title_newsland{
+    font-size: 15px;
+}
+.home_newsLand .box__avatar_newsland{
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+}
+.home_newsLand .box__avatar_newsland img{  
+    width: 100%;
+}
+.home_newsLand  .box__right .content_title{
+    font-size: 15px;
+    font-weight: 500;
+}
+.home_newsLand  .box__right .content_title a{
+    color: #12477f;
+}
+.home_newsLand  .box__right .content_address{
+    font-size: 15px;
+    color: #2E6AB2;
+    font-weight: 500;
+    display: inline-flex;
+}
+.home_newsLand  .box__right .content_address span{
+    margin: 0px 5px;
+}
+.home_newsLand  .box__right .content_address a{
+    color: #106BA6;
+}
+.home_newsLand  .box__right .area{
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.home_newsLand  .box__right .area strong, .home_newsLand  .box__right .content_price_time .price strong{
+    font-weight: 700 !important;
+    color: #333;
+}
+.home_newsLand  .box__right .content_price_time{
+    justify-content: space-between;
+}
+.home_newsLand  .box__right .content_price_time .price{
+    color: #333;
+    font-weight: 700;
+}
+.home_newsLand  .box__right .content_price_time .time{
+    color: #222;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    font-style: italic;
+}
+.home_newsLand .main_col a{
+    display: block;
+}
+.home_newsLand .main_col .same_col:last-child{
+    padding-left: 0px !important;
+}

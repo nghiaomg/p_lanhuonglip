@@ -1,0 +1,78 @@
+CRITICAL - 2022-10-20 16:32:51 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 16:35:12 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 16:36:23 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 16:37:04 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 16:37:55 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 16:40:38 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 16:42:24 --> Division by zero
+#0 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Views\frontend\product\related.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'D:\\xampp\\htdocs...', 7, Array)
+#1 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(468): CodeIgniter\View\View->render('frontend/produc...', NULL, true)
+#4 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Views\frontend\product\detail.php(448): CodeIgniter\View\View->include('frontend/produc...')
+#5 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(468): CodeIgniter\View\View->render('frontend/produc...', NULL, true)
+#8 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Views\frontend\default.php(41): CodeIgniter\View\View->include('frontend/produc...', NULL)
+#9 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\xampp\htdocs\project2022\p_lanhuonglip\system\Common.php(1217): CodeIgniter\View\View->render('frontend/defaul...', Array, true)
+#12 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Controllers\Route.php(85): view('frontend/defaul...', Array)
+#13 D:\xampp\htdocs\project2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('vo-son-kem-hinh...', '')
+#14 D:\xampp\htdocs\project2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#15 D:\xampp\htdocs\project2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\xampp\htdocs\project2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#17 D:\xampp\htdocs\project2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-10-20 16:44:54 --> Division by zero
+#0 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Views\frontend\product\related.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'D:\\xampp\\htdocs...', 7, Array)
+#1 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(468): CodeIgniter\View\View->render('frontend/produc...', NULL, true)
+#4 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Views\frontend\product\detail.php(448): CodeIgniter\View\View->include('frontend/produc...')
+#5 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(468): CodeIgniter\View\View->render('frontend/produc...', NULL, true)
+#8 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Views\frontend\default.php(41): CodeIgniter\View\View->include('frontend/produc...', NULL)
+#9 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\xampp\htdocs\project2022\p_lanhuonglip\system\Common.php(1217): CodeIgniter\View\View->render('frontend/defaul...', Array, true)
+#12 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Controllers\Route.php(85): view('frontend/defaul...', Array)
+#13 D:\xampp\htdocs\project2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('vo-son-kem-hinh...', '')
+#14 D:\xampp\htdocs\project2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#15 D:\xampp\htdocs\project2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\xampp\htdocs\project2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#17 D:\xampp\htdocs\project2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-10-20 16:45:18 --> Division by zero
+#0 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Views\frontend\product\related.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'D:\\xampp\\htdocs...', 7, Array)
+#1 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(468): CodeIgniter\View\View->render('frontend/produc...', NULL, true)
+#4 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Views\frontend\product\detail.php(448): CodeIgniter\View\View->include('frontend/produc...')
+#5 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(468): CodeIgniter\View\View->render('frontend/produc...', NULL, true)
+#8 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Views\frontend\default.php(41): CodeIgniter\View\View->include('frontend/produc...', NULL)
+#9 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(220): include('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\project2022\p_lanhuonglip\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\xampp\htdocs\project2022\p_lanhuonglip\system\Common.php(1217): CodeIgniter\View\View->render('frontend/defaul...', Array, true)
+#12 D:\xampp\htdocs\project2022\p_lanhuonglip\app\Controllers\Route.php(85): view('frontend/defaul...', Array)
+#13 D:\xampp\htdocs\project2022\p_lanhuonglip\system\CodeIgniter.php(938): App\Controllers\Route->index('vo-son-kem-hinh...', '')
+#14 D:\xampp\htdocs\project2022\p_lanhuonglip\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Route))
+#15 D:\xampp\htdocs\project2022\p_lanhuonglip\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\xampp\htdocs\project2022\p_lanhuonglip\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#17 D:\xampp\htdocs\project2022\p_lanhuonglip\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#18 {main}

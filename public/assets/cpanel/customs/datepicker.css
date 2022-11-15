@@ -1,0 +1,29 @@
+.date.form_datetime{
+    position: relative;
+}
+.date.form_datetime .add-on i.icon-remove{
+    position: absolute;
+    right: 30px;
+    top: 0;
+    height: 100%;
+    width: 30px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: 2px solid #ccc;
+}
+.date.form_datetime .add-on i.icon-th{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    height: 100%;
+    width: 30px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: 2px solid #ccc;
+}

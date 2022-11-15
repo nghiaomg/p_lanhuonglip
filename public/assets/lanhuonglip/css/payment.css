@@ -1,0 +1,254 @@
+.error-box{
+    font-size: 0.9rem;
+    font-style: italic;
+}
+/*-----------------------*/
+.payment_page .left{
+    padding: 4rem 3rem 4rem 0;
+    border-right: 1px solid #d5d5d5;
+}
+.payment_page .left .box_logo{
+    text-align: center;
+    margin: 0 0 1rem;
+}
+.payment_page .left .box_logo img{
+    height: 56px;
+}
+.payment_page .left .pay_method{
+    margin: 0 0 1rem;
+}
+.payment_page .left .pay_method .title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem;
+}
+.payment_page .left .pay_method ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #d5d5d5;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.payment_page .left .pay_method ul li{
+    padding: 5px 0;
+}
+.payment_page .left .form .title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+}
+.payment_page .left .form .input_item{
+    margin: 0 0 1rem;
+}
+.payment_page .left .form .input_item input{
+    height: 46px;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.payment_page .left .form .input_item textarea{
+    width: 100%;
+    outline: none;
+    padding: 10px 0 0 15px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.payment_page .left .form button{
+    width: 100%;
+    height: 46px;
+    outline: none;
+    border: none;
+    line-height: 46px;
+    text-align: center;
+    cursor: default;
+    background: #B1261D;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #FFF;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+.payment_page .left .form button:hover{
+    color: #FFF;
+    background-color: #AB4035;
+}
+.payment_page .left .back_to_cart{
+    color: #AB4035;
+    display: table;
+    margin: 1rem 0 0;
+}
+.payment_page .left .back_to_cart:hover{
+    color: #B1261D;
+}
+.payment_page .left .custom-radio .custom-control-input:checked~.custom-control-label::before{
+    background-color: #EA222F;
+    border: #EA222F solid 1px;
+}
+.payment_page .left .custom-radio .custom-control-input:checked~.custom-control-label{
+	color: #EA222F;
+	font-weight: 500;
+}
+/*================================================================*/
+.payment_page .right{
+    padding: 4rem 0 0 3rem;
+}
+.payment_page .right .list_product .item{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 0 1rem;
+}
+.payment_page .right .list_product .item .box_img {
+    width: 75px;
+    height: 75px;
+    border-radius: 8px;
+    background: #fff;
+    position: relative;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border: 1px rgba(0,0,0,0.1) solid;
+    position: relative;
+}
+.payment_page .right .list_product .item .box_img .qty{
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgba(114,114,114,0.9);
+    color: #fff;
+    font-size: 0.9rem;
+}
+.payment_page .right .list_product .item .info {
+    width: calc(100% - 200px);
+}
+.payment_page .right .list_product .item .info h3{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.payment_page .right .list_product .item .info h3 a{
+    color: #333;
+}
+.payment_page .right .list_product .item .info h3 a:hover{
+    color: #B1261D;
+}
+.payment_page .right .list_product .item .info .des{
+    color: #717171;
+    font-size: 0.9rem;
+}
+.payment_page .right .list_product .item .price {
+    width: 100px;
+    font-size: 0.9rem;
+    text-align: right;
+}
+/*================================================================*/
+.payment_page .right .discount_code{
+    padding: 1rem 0;
+    /* margin: 1rem 0 0; */
+    border-top: 1px solid #d5d5d5;
+}
+.payment_page .right .discount_code .item{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.payment_page .right .discount_code .item button{
+    width: 100px;
+    height: 46px;
+    outline: none;
+    border: none;
+    line-height: 46px;
+    text-align: center;
+    cursor: default;
+    background: #c8c8c8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.payment_page .right .discount_code .item button:hover{
+    color: #FFF;
+    background-color: #333;
+}
+.payment_page .right .discount_code .item input{
+    height: 46px;
+    width: calc(100% - 110px);
+    outline: none;
+    padding-left: 15px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+}
+/*================================================================*/
+#loadingDiv{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    z-index: 9999;
+    display: none;
+}
+#loadingDiv img{
+    margin-top: 50vh;
+}
+/*================================================================*/
+.payment_page .right .cal_money .item{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    border-top: 1px solid #d5d5d5;
+    padding: 5px 0;
+}
+.payment_page .right .cal_money .item .label_total{
+    line-height: 40px;
+}
+.payment_page .right .cal_money .item .total{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.payment_page .right .box_logo {
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+    .payment_page .right {
+        padding: 4rem 0 0 0rem;
+    }
+    .payment_page .right .list_product .item .price {
+        width: 60px;
+    }
+    .payment_page .right .list_product .item .info {
+        width: calc(100% - 160px);
+    }
+}
+@media screen and (max-width: 668px) {
+    .payment_page .right {
+        padding: 2rem 0 0 0rem;
+    }
+    .payment_page .left {
+        padding: 2rem 0rem 4rem 0;
+        border: none;
+    }
+    .payment_page .left .box_logo {
+        display: none;
+    }
+    .payment_page .right .box_logo {
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .payment_page .right .box_logo img{
+        height: 50px;
+    }
+}

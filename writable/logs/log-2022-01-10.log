@@ -1,0 +1,14 @@
+CRITICAL - 2022-01-10 21:08:52 --> Invalid file: frontend/booking/notify.php
+#0 C:\xampp\htdocs\projects\p_flynhatrang\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/bookin...')
+#1 C:\xampp\htdocs\projects\p_flynhatrang\system\View\View.php(468): CodeIgniter\View\View->render('frontend/bookin...', NULL, true)
+#2 C:\xampp\htdocs\projects\p_flynhatrang\app\Views\frontend\default.php(69): CodeIgniter\View\View->include('frontend/bookin...', NULL)
+#3 C:\xampp\htdocs\projects\p_flynhatrang\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projects\p_flynhatrang\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\projects\p_flynhatrang\system\Common.php(1217): CodeIgniter\View\View->render('frontend/defaul...', Array, true)
+#6 C:\xampp\htdocs\projects\p_flynhatrang\app\Controllers\Booking.php(46): view('frontend/defaul...', Array)
+#7 C:\xampp\htdocs\projects\p_flynhatrang\system\CodeIgniter.php(938): App\Controllers\Booking->notify()
+#8 C:\xampp\htdocs\projects\p_flynhatrang\system\CodeIgniter.php(434): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#9 C:\xampp\htdocs\projects\p_flynhatrang\system\CodeIgniter.php(335): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projects\p_flynhatrang\public\index.php(43): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projects\p_flynhatrang\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
